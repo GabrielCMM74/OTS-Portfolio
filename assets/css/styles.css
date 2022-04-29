@@ -72,6 +72,16 @@ img {
 }
 
 /*===== CLASS CSS ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  margin-top: 90px;
+  row-gap: 100px;
+}
+
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
