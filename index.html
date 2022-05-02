@@ -110,8 +110,6 @@
                                 <span class="skills__name">Nodejs/Express</span>
                                 <i class='bx bxl-mongodb skills__icon2' ></i>
                                 <span class="skills__name">MongoDb/Mongoose</span>
-                                <i class='bx bxl-google skills__icon2'></i>
-                                <span class="skills__name">Oauth</span>
                             </div>
                             <div class=" skills__css">
                                 
@@ -161,24 +159,33 @@
                 <h2 class="section-title">Work</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="Finance Portfolio App">
+                <div>
+                    <a href="https://finance-porfolio.herokuapp.com/" target="_blank" class="work__img">
+                        <img src="assets/img/work5.png" alt="Finance Portfolio App">
                     </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
+                    <span><a href="https://github.com/GabrielCMM74/Project-2" target="_blank" class="home__social-icon" ><i class='bx bxl-github'></i></a></span>
+                </div>
+                <div>
+                    <a href="https://aircraftcollector.herokuapp.com/" target="_blank" class="work__img">
+                        <img src="assets/img/work2.png" alt="Aircraft Collector Application">
                     </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
+                    <span><a href="https://github.com/GabrielCMM74/Aircraft-Collector-App" target="_blank" class="home__social-icon" ><i class='bx bxl-github'></i></a></span>
+                </div>
+                <div>
+                    <a href="https://gabrielcmm74.github.io/Project-1/" target="_blank" class="work__img">
+                        <img src="assets/img/work3.png" alt="">
                     </a>
-                    <a href="" class="work__img">
+                    <span><a href="https://github.com/GabrielCMM74/Project-1" target="_blank" class="home__social-icon" ><i class='bx bxl-github'></i></a></span>
+                </div>
+                    <!-- <a href="" class="work__img">
                         <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
+                    </a> -->
+                    <!-- <a href="" class="work__img">
                         <img src="assets/img/work5.jpg" alt="">
                     </a>
                     <a href="" class="work__img">
                         <img src="assets/img/work6.jpg" alt="">
-                    </a>
+                    </a> -->
                 </div>
             </section>
 
@@ -187,11 +194,11 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                    <form action="https://formspree.io/f/xbjwpwjb" class="contact__form" method="POST">
+                        <!-- <input type="text" placeholder="Name"  name="email" class="contact__input"> -->
+                        <input type="email" name="email" placeholder="Your Email" class="contact__input">
+                        <textarea name="message" placeholder="Message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <button type="submit" class="contact__button button">Send</button>
                     </form>
                 </div>
             </section>
