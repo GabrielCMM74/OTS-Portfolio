@@ -310,8 +310,18 @@ img {
 
 .skills__icon {
   font-size: 2rem;
-  margin-right: var(--mb-2);
   color: var(--first-color);
+  margin-left: var(--mb-2);
+}
+
+.skills__icon1 {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+.skills__icon2 {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-left: var(--mb-1);
 }
 
 .skills__names {
